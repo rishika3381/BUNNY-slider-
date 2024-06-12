@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.box{
+    height: 99%;
+    width: 30%;
+    background-image: url(https://i.pinimg.com/564x/77/10/c4/7710c4276fdbf395f6ddc4a6dd5e98f6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    animation-name: box1;
+    animation-duration: 12s;
+  
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+.box2 h2{
+   
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: wheat;
+}
+.box2{
+    margin-top: 10%;
+    margin-left: 19px;
+    height: 30%;
+    width: 10%;
+}
+
+@keyframes box1 {
+    0%{ background-image: url(https://i.pinimg.com/564x/77/10/c4/7710c4276fdbf395f6ddc4a6dd5e98f6.jpg);}
+    35%{background-image: url( https://i.pinimg.com/564x/d7/e9/35/d7e9350d7f7dfb9ffb6aa71ac2b2808a.jpg);}
+    75%{ background-image: url(   https://i.pinimg.com/564x/03/36/a3/0336a3e0f68970aa2aae2a5ee034147b.jpg);                                 }
+}
